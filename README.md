@@ -1,6 +1,6 @@
 # Personal Portfolio Website — v1
 
-My name is Victor Williams, and I’m a front-end engineer and product designer based in Lagos, Nigeria. My passion lies in creating software that solves real-world problems and positively impacts people’s lives.
+My name is Sahil Singh, and I’m a front-end engineer and product designer based in Lagos, Nigeria. My passion lies in creating software that solves real-world problems and positively impacts people’s lives.
 
 I created this website to showcase my work. I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world.
 
@@ -53,7 +53,6 @@ This project is open source, and you are welcome to use the code or parts of the
 If you are using the site’s design largely unmodified, please credit me as the designer of the website.
 
 Incase you have any questions or concerns, please feel free to reach out to me on [Twitter.](https://twitter.com/victorwill__) I am always happy to help!
-
 
 ## Feedback
 
