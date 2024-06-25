@@ -54,17 +54,17 @@ export const devProjects = [
   //   image: require(".//../../public/projects/skywatch-new.webp"),
   //   available: true,
   // },
-  // {
-  //   id: 4,
-  //   name: "Alpaca Image Generator",
-  //   description:
-  //     "An image generator website that allows users to generate, combine, and download images.",
-  //   technologies: ["React", "CSS", "Merge Images"],
-  //   github: "https://github.com/victorcodess/alpaca-image-generator",
-  //   demo: "http://alpaca-image-generator-beta.vercel.app",
-  //   image: require(".//../../public/projects/alpaca-flip.png"),
-  //   available: true,
-  // },
+  {
+    id: 3,
+    name: "GetitDone",
+    description:
+      "Made a landing page for my agency empowering new startups with the tools and support needed to achieve success.",
+    technologies: ["NextJs", "Tailwind CSS", "EmailJs"],
+    github: "https://github.com/0xSahilx/GetitDone",
+    demo: "https://getit-done-ten.vercel.app/",
+    image: require(".//../../public/projects/getitdone.png"),
+    available: true,
+  },
 
   // {
   //   id: 5,
