@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Sahil Singh — Frontend Engineer",
   description:
-    "Frontend Engineer and Product Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "Frontend Engineer and Product Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lucknow, India",
   generator: "Next.js",
   applicationName: "Sahil Singh",
   keywords: [
@@ -39,12 +39,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sahil Singh — Frontend Engineer",
     description:
-      "Frontend Engineer and Product Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+      "Frontend Engineer and Product Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lucknow, India.",
+    url: "https://shahil-singh.vercel.app/",
+    siteName: "https://shahil-singh.vercel.app/",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "../public/sahil.png",
         width: 1200,
         height: 630,
         alt: "Sahil Singh — Frontend Engineer",
@@ -57,11 +57,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sahil Singh — Frontend Engineer",
     description:
-      "Frontend Engineer and Product Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
-    creatorId: "1243720976552144897",
+      "Frontend Engineer and Product Designer, currently at Stagesplash. Focused on interfaces and experiences, working remotely from Lucknow, India.",
+    creator: "Shahil Aryan Singh",
+    creatorId: "463548645248",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "../public/sahil.png",
     ],
   },
   robots: {
