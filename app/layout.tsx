@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Sahil Singh — Frontend Engineer",
   description:
-    "Frontend Engineer and Product Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lucknow, India",
+    "Frontend Engineer and Product Designer, currently at Stagesplash. Focused on interfaces and experiences, working remotely from Lucknow, India",
   generator: "Next.js",
   applicationName: "Sahil Singh",
   keywords: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sahil Singh — Frontend Engineer",
     description:
-      "Frontend Engineer and Product Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lucknow, India.",
+      "Frontend Engineer and Product Designer, currently at Stagesplash. Focused on interfaces and experiences, working remotely from Lucknow, India.",
     url: "https://shahil-singh.vercel.app/",
     siteName: "https://shahil-singh.vercel.app/",
     images: [
