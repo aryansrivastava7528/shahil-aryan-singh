@@ -125,7 +125,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[12px] font-semibold text-[#e4ded7] md:text-[20px]">
-          Whether you're a startup, small business, or large enterprise, we tailor solutions using Shopify, Framer, WordPress, custom code, and more.
+          Whether you&apos;re a startup, small business, or large enterprise, we tailor solutions using Shopify, Framer, WordPress, custom code, and more.
           </p>
         </motion.div>
       </div>
