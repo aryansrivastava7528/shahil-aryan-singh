@@ -4,7 +4,8 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/profile.jpg";
+// import profile from "../../public/profile.jpg";
+import gidlogo from "../../public/gidlogo.png"
 
 const Hero = () => {
   return (
@@ -77,7 +78,7 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
           <AnimatedWords
-            title="SHAHIL SINGH"
+            title="Getit.Dev"
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
           <motion.div
@@ -85,12 +86,12 @@ const Hero = () => {
             variants={imageAnimation}
           >
             <Image
-              src={profile}
+              src={gidlogo}
               priority
               alt="Shahil's headshot"
-              data-blobity-tooltip="Fine boy"
+              data-blobity-tooltip="Getit.Now"
               data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
+              className=" w-[100px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
           </motion.div>
         </div>
@@ -106,15 +107,16 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Product Designer, prev at{" "}
-            <Link
+          Your One-Stop Solution for Powerful Digital Experiences.
+   
+            {/* <Link
               href="https://www.mono.co/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="Mono Website"
             >
               STAGESPLASH,
-            </Link> currently available for work.
+            </Link> */}
           </p>
         </motion.div>
 
@@ -122,9 +124,8 @@ const Hero = () => {
           className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
           variants={bodyAnimation}
         >
-          <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Lucknow,
-            India.
+          <p className="text-right text-[12px] font-semibold text-[#e4ded7] md:text-[20px]">
+          Whether you're a startup, small business, or large enterprise, we tailor solutions using Shopify, Framer, WordPress, custom code, and more.
           </p>
         </motion.div>
       </div>

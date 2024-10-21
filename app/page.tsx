@@ -13,6 +13,7 @@ const About = dynamic(() => import("./about-section/About"));
 const Blog = dynamic(() => import("./blog-section/BlogGrid"));
 const Contact = dynamic(() => import("./contact-section/Contact"));
 const Footer = dynamic(() => import("./footer/Footer"));
+// const GithubCalendarComponent = dynamic(() => import("./github/GithubCalenderComponent"));
 
 export default function Home() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -40,6 +41,7 @@ export default function Home() {
       {/* <ScrollerMotion> */}
       <main className="flex flex-col items-center justify-center">
         <Hero />
+        {/* <GithubCalendarComponent/> */}
         <Work />
         <About />
         {/* <Blog /> */}
